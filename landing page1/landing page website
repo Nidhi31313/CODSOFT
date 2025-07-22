@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <style>
+        ul li{
+         list-style-type:none;
+        }
+    </style>
+    <style>
+        body{
+            background-image: url(png.back.jpeg);
+            background-repeat: no-repeat ;
+            position: relative;
+            background-size: cover;
+            position: relative;
+            background-position: center;
+            height: 30vh;
+            margin: 0;
+            padding: 0;
+            margin-bottom: 20%;
+        }
+    </style>
+    <style>
+        <h2{line-height: 0px;}
+    </style>
+<script src="https://www.knowledge.org" crossorigin="anonymous"></script>
+<link rel = "stylesheet" href="style.css">
+</head>
+<body>
+<div class="menu-bar">
+<ul>
+<a href="#" class="ENTERTAINMENT"> ENTERTAINMENT</a>
+<a href="#" class="NEWS"> NEWS</a>
+<a href="#" class="SPORTS"> SPORTS</a>
+<a href="#" class="tour"> TOUR</a>
+<a href="#" class="DISCOVERY"> DISCOVERY</a>
+<a href="#" class="BUSINESS STOCKS"> BUSINESS STOCKS</a>
+</ul>
+<div>
+    <div>
+    <UL>
+        <h1 class = "paragraph1">TEN YEARS OF</h1>
+        <h2 class = "paragraph2">ONE DIRECTION</h2>
+    </div>
+</ul>
+<div>
+
+    <p class ="paragraph">Greetings to all! We welcome you to the platform<br>
+    where we consistently strive to offer the best of knowledge since 2015.<br>
+    This platform has been designed for everyone wishing to expand their knowledge<br>
+    ,share their knowledge and is ready to outreach. We have millions of articles,<br> 
+    live, thousands of tutorials and much more just for you inside. Thank you for<br>
+    choosing and supporting us!"</p>
+</div>
+<ul>
+<div>
+<a href="#" class = "lets-go-btn">LET'S GO</a>
+</div>
+</ul>
+<footer class = "footer">
+    <div class="icon">
+    <ul>
+        <a style="color: #c64c0a;"href="#"><i class="fa-brands fa-sky tv"></i></a> 
+        <a style="color: #bcc60a;"href="#"><i class="fa-brands fa-hibbo news"></i></a>
+        <a style="color: rgba(239, 197, 11, 0.953)ff3;"href="#"><i class="fa-brands fa-soundcloud"></i></a>
+        <a style="color: rgb(104, 10, 100);"href="#"><i class="fa-brands fa-computing"></i></a>
+    </ul>
+    </div>
+    <div class="p1">
+    <pre> KNOWLEDGE LEADS
+    </div>
+</footer>
+</body>
+</html>
