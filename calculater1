@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>calculator using javascript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ <div class="container">
+    <div class="calculator">
+        <form>
+          <div class="display">
+            <input type="text" name="display">
+          </div> 
+          <div>
+            <input type="button" value="AC" onclick="display.value = ''" class="operator">
+            <input type="button" value="%" onclick="display.value += '%'" class="operator">
+            <input type="button" value="." onclick="display.value += '.'" class="operator">
+            <input type="button" value="/" onclick="display.value += '/'" class="operator">
+          </div>
+          <div>
+            <input type="button" value="7" onclick="display.value += '7'">
+            <input type="button" value="8" onclick="display.value += '8'">
+            <input type="button" value="9" onclick="display.value += '9'">
+            <input type="button" value="*" onclick="display.value += '*'" class="operator">
+          </div> 
+          <div>
+            <input type="button" value="4" onclick="display.value += '4'">
+            <input type="button" value="5" onclick="display.value += '5'">
+            <input type="button" value="6" onclick="display.value += '6'">
+            <input type="button" value="-" onclick="display.value += '-'" class="operator">
+          </div>
+          <div>
+            <input type="button" value="1" onclick="display.value += '1'">
+            <input type="button" value="2" onclick="display.value += '2'">
+            <input type="button" value="3" onclick="display.value += '3'">
+            <input type="button" value="+" onclick="display.value += '+'" class="operator">
+          </div>
+            <div>
+                <input type="button" value="0" onclick="display.value += '0'">
+                <input type="button" value="00"onclick="display.value += '00'">
+                <input type="button" value="=" onclick="display.value = eval(display.value)">
+                <input type="button" value="Del" onclick="display.value = display.value.toString().slice(0, -1)" class="operator">
+        </form>
+    </div>
+ </div>
+
+ Empty file added0  
+javascript
+Empty file.
+ 51 changes: 51 additions & 0 deletions51  
+style.css
+Original file line number	Original file line	Diff line number	Diff line change
+@@ -0,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #dbb7b7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    background: #929b91;
+    padding: 20px;
+    border-radius: 10px;
+}
+.calculator form input{
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    border: 0;
+    outline: 0;
+    box-shadow: -8px 8px 15px rgba(255, 255, 255, 0.2),
+                8px -8px 15px rgba(0, 0, 0, 0.2); 
+    background: #e5dcdc;
+    font-size: 20px;
+    color: #000;
+    margin: 10px;
+    cursor: pointer;
+}
+
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: 5px;
+}
+
+form input.operator{
+    color: #f80e0e;
+}
